@@ -43,9 +43,7 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 ---
 
 ## 🗺️ NETWORK DIAGRAM  
-*(Insert diagram or screenshot from Packet Tracer)*
 
----
 
 <img width="1542" height="812" alt="Screenshot 2026-10-16 101424" src="https://github.com/user-attachments/assets/65641066-561f-4c52-9630-8b7fe2382711" />
 
