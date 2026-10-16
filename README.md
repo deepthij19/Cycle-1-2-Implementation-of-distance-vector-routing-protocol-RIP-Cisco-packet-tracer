@@ -46,7 +46,8 @@ To connect computers in multiple networks using Distance Vector Routing Protocol
 *(Insert diagram or screenshot from Packet Tracer)*
 
 ---
-<img width="1082" height="423" alt="image" src="https://github.com/user-attachments/assets/c87b4e16-a5ab-4f20-acba-4140468d3b4d" />
+
+<img width="1542" height="812" alt="Screenshot 2026-10-16 101424" src="https://github.com/user-attachments/assets/65641066-561f-4c52-9630-8b7fe2382711" />
 
 ## 🧭 PROCEDURE
 
@@ -114,34 +115,24 @@ Router(config-router)# exit
 
 ## ✅ OUTPUT VERIFICATION
 
-## 🔍 Show RIP Routing Table
-### Router# show ip route
-### Expected output on Router0:
-```
-R 192.168.3.0 [120/1] via 192.168.2.2, FastEthernet0/1
-R 192.168.4.0 [120/1] via 192.168.2.2, FastEthernet0/1
-```
----
-<img width="882" height="687" alt="image" src="https://github.com/user-attachments/assets/cdc69c5a-fd55-4456-8f96-b4d7cbbb0f11" />
+## Router# show ip route
 
-### Expected output on Router1:
-```
-R 192.168.1.0 [120/1] via 192.168.2.1, FastEthernet0/0
-R 192.168.2.0 [120/1] via 192.168.2.1, FastEthernet0/0
-```
----
-<img width="864" height="839" alt="image" src="https://github.com/user-attachments/assets/d9170e29-0377-4661-83a4-7c3df139bfb4" />
+## Expected output on Router0:
 
-## 📶 Ping Test Between PCs
-Example: Ping from PC0 to PC3
-C:\> ping 192.168.3.2
-### Expected result: Successful replies from PC3.
 
-### Repeat similar tests between other PCs (e.g., PC2 to PC5).
+<img width="1412" height="712" alt="Screenshot 2026-10-16 101543" src="https://github.com/user-attachments/assets/c4afec90-2ac1-4bf1-ac20-8b143a1cd2a0" />
 
-## 📤 OUTPUT
----
-<img width="972" height="487" alt="image" src="https://github.com/user-attachments/assets/dbb66617-e002-49e9-aba7-4051c2831995" />
+## Expected output on Router1:
 
-## 📝 RESULT
+
+<img width="1402" height="711" alt="image" src="https://github.com/user-attachments/assets/e9707f32-9eb1-4181-b7a6-b11441362caf" />
+
+## 📶  Ping Test Between PCs
+## Example: Ping from PC0 to PC5
+
+
+<img width="1531" height="767" alt="image" src="https://github.com/user-attachments/assets/7b20ead0-aba5-428c-9723-762dcc024c9c" />
+
+## 📝  RESULT:
+
 Thus, the computers in multiple networks using Distance Vector Routing Protocol are successfully connected and the connectivity between them is verified.
